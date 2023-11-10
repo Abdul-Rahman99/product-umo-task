@@ -12,7 +12,8 @@ multiple Addon Items.
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage) & [API Endpoints](#api-endpoints)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
 - [Testing](#testing)
 - [Built With](#built-with)
 - [Contributing](#contributing)
@@ -34,7 +35,8 @@ npm i
 ```
 
 ----------------------------------------------------------------------------------------
-## Usage & API Endpoints
+## Usage
+
 
 ### 1. Running Locally
 
@@ -61,6 +63,8 @@ To run the application locally, follow these steps:
 
 4. Open your web browser and visit [http://localhost:3333](http://localhost:3333) to access the application.
 
+
+## API Endpoints
 ### 2. Making API Requests
 
 #### Create a New Product
