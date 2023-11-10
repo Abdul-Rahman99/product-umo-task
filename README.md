@@ -16,8 +16,6 @@ multiple Addon Items.
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
 - [Built With](#built-with)
-- [Contributing](#contributing)
-- [Acknowledgments](#acknowledgments)
 
 ## Getting Started
 
