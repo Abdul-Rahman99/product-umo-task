@@ -4,7 +4,7 @@ const ApiError = require("../utils/apiError");
 const Product = require("../models/product");
 
 // @desc    Create product
-// @route   POST  /api/v1/products
+// @route   POST  /products/create
 const createProduct = asyncHandler(async (req, res) => {
   // Assuming the data comes from the request body
   try {
@@ -22,7 +22,7 @@ const createProduct = asyncHandler(async (req, res) => {
 });
 
 // @desc    Get specific product by id
-// @route   GET /api/v1/products/:productId
+// @route   GET/products/:productId
 const getProduct = asyncHandler(async (req, res, next) => {
   try {
     // Assuming the product ID is in the request params
@@ -44,7 +44,7 @@ const getProduct = asyncHandler(async (req, res, next) => {
 
 
 // @desc    Get all products
-// @route   GET /api/v1/products
+// @route   GET /products
 const getAllProducts = asyncHandler(async (req, res) => {
   const products = await Product.find();
   res.json(products);
@@ -52,7 +52,7 @@ const getAllProducts = asyncHandler(async (req, res) => {
 
 
 // @desc    Update specific product
-// @route   PUT /api/v1/products/:productId
+// @route   PUT /products/update/:productId
 const updateProduct = asyncHandler(async (req, res, next) => {
   try {
     const productId = req.params.productId;
@@ -75,7 +75,7 @@ const updateProduct = asyncHandler(async (req, res, next) => {
 });
 
 // @desc    Delete specific product
-// @route   DELETE /api/v1/products/:productId
+// @route   DELETE /products/delete/:productId
 const deleteProduct = asyncHandler(async (req, res) => {
   try {
     const productId = req.params.productId;
