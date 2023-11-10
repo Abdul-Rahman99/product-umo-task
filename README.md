@@ -12,8 +12,7 @@ multiple Addon Items.
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
+- [Usage](#usage) & [API Endpoints](#api-endpoints)
 - [Testing](#testing)
 - [Built With](#built-with)
 - [Contributing](#contributing)
@@ -35,7 +34,7 @@ npm i
 ```
 
 ----------------------------------------------------------------------------------------
-## USAGE & API END POINTS
+## Usage & API Endpoints
 
 ### 1. Running Locally
 
