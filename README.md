@@ -90,7 +90,8 @@ To create a new product, send a POST request to the following endpoint:
       "_id": "generatedProductId",
       // Other product details
     }
-  } ```
+  }
+  ```
 
 ### Retrieve Product Information
 To retrieve information about a product, send a GET request to the following endpoint:
@@ -104,7 +105,8 @@ To retrieve information about a product, send a GET request to the following end
     "_id": "productId",
     // Product details
   }
-}```
+}
+```
 
 ### Update Product Information
 To update the details of a product, send a PUT request to the following endpoint:
@@ -117,7 +119,8 @@ To update the details of a product, send a PUT request to the following endpoint
   "title": "Updated Product Title",
   "description": "Updated Product Description"
   // Other updated fields
-  } ```
+  }
+ ```
 - **Response:**
   ```json
   {
@@ -125,7 +128,8 @@ To update the details of a product, send a PUT request to the following endpoint
       "_id": "productId",
       // Updated product details
     }
-  } ```
+  }
+   ```
 
 ### Delete Product Information
 To delete a product, send a DELETE request to the following endpoint:
