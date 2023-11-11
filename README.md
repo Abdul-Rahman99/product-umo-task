@@ -100,7 +100,7 @@ To retrieve information about a product, send a GET request to the following end
 - **Endpoint:** `/products/:productId`
 - **Method:** `GET`
 - **Response:**
-  ```json
+```json
 {
   "data": {
     "_id": "productId",
@@ -115,22 +115,22 @@ To update the details of a product, send a PUT request to the following endpoint
 - **Endpoint:** `/products/update/:productId`
 - **Method:** `PUT`
 - **Request:**
-  ```json
+```json
   {
   "title": "Updated Product Title",
   "description": "Updated Product Description"
   // Other updated fields
   }
- ```
+```
 - **Response:**
-  ```json
+```json
   {
     "data": {
       "_id": "productId",
       // Updated product details
     }
   }
-   ```
+```
 
 ### Delete Product Information
 To delete a product, send a DELETE request to the following endpoint:
@@ -156,31 +156,31 @@ To run the tests, follow these steps:
 
 1. Open a terminal and navigate to the root directory of your project:
 
-    ```bash
+```bash
     cd /path/to/your/project
-    ```
+```
 
 2. Install the test dependencies:
 
-    ```bash
+```bash
     npm install --save-dev
-    ```
+```
 
 3. Run the tests:
 
-    ```bash
+```bash
     npm test
-    ```
+```
 
 The testing framework will execute the test scripts you've written and provide output indicating whether the tests passed or failed.
 
 #### Test Scripts
 
-  ```json
+```json
   "scripts": {
     "test": "mocha --timeout 10000",
     }
-  ```
+```
 
 
 ----------------------------------------------------------------------------------------
