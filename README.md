@@ -187,21 +187,20 @@ The testing framework will execute the test scripts you've written and provide o
 
 ### Built With
 
-Node.js
-Express.js
-MongoDB
-Mongoose
+Node.js, 
+Express.js, 
+MongoDB, 
+Mongoose.
 
 ### third-party libraries:
-  cors
-  dotenv
-  esm
-  express
-  express-async-handler
-  express-validator
-  mongoose
-  morgan
-  nodemon
-  slugify
+  dotenv, 
+  esm, 
+  express, 
+  express-async-handler, 
+  express-validator, 
+  mongoose, 
+  morgan, 
+  nodemon, 
+  slugify.
 
 -----------------------------------------------------------------------------------------------------------
